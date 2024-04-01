@@ -426,7 +426,8 @@ class MinimalisticAreaCard extends LitElement {
           height: 100%;
           width: 100%;
           
-          object-fit: cover;
+          /* object-fit: cover;*/
+          object-fit: none;
 
           position: absolute;
           z-index: -1;
